@@ -72,7 +72,7 @@ void __sol(){
 }
 
 
-int main(){ 
+int main(){
     fastio;
     int tc=1; cin >> tc;
     while(tc--) __sol();
