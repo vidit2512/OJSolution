@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int n,x,p;
+	    cin>>n>>x>>p;
+	    int r=x*3;
+	    int w=(n-x) * -1;
+	    int tot=r+w;
+	    if(tot<p)
+	    {
+	        cout<<"FAIL"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"PASS"<<endl;
+	    }
+	}
+}
